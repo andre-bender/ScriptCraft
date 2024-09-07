@@ -1,0 +1,1 @@
+﻿(Get-CimInstance Win32_ComputerSystem).Manufacturer+','+(Get-CimInstance Win32_ComputerSystem).Model+','+(Get-CimInstance Win32_BIOS).SerialNumber
